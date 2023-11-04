@@ -34,6 +34,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "gamma")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001443636584"))
 
+FORCE_SUB_CHANNELI = int(os.environ.get("FORCE_SUB_CHANNELI", "-1001539759942"))
+
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
