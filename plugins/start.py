@@ -126,6 +126,11 @@ async def not_joined(client: Client, message: Message):
                 "Join Channel",
                 url = client.invitelink)
         ]
+        [
+         InlineKeyboardButton(
+                "Join Channel 2",
+                url = "https://t.me/Harem_Animes")
+        ]
     ]
     try:
         buttons.append(
